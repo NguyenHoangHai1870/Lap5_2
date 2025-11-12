@@ -19,12 +19,14 @@ Tokenizer: Tạo từ điển và chuyển câu thành chuỗi chỉ số. Paddi
 Pre-trained: Khởi tạo từ trọng số Word2Vec đã huấn luyện → học nhanh, ngữ nghĩa tốt. Scratch: Học từ đầu trong quá trình training → linh hoạt hơn với domain mới.
 
 4. Bảng so sánh kết quả định lượng
+```
 | *Pipeline*                   | *F1-macro (test)* | *Test Loss* |
 | ------------------------------ | ------------------- | ------------- |
 | TF-IDF + Logistic Regression   | *0.835298*        | N/A           |
 | Word2Vec (Avg) + Dense         | 0.149018            | 3.032118      |
 | Embedding (Scratch) + LSTM     | 0.149525            | 2.941058      |
 | Embedding (Pre-trained) + LSTM | 0.036167            | 3.603505      |
+```
 Nhận xét định lượng: Mô hình TF-IDF + LR đạt kết quả cao nhất về F1 (≈0.83). Cả ba mô hình dùng neural network (W2V + Dense, LSTM) có F1 rất thấp (≈0.14–0.03).
 
 Lý do có thể:
