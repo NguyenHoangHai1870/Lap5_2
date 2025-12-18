@@ -1,3 +1,16 @@
+├── data/                                # Thư mục chứa dữ liệu (Dataset)
+│  
+├── notebook/                            # Thư mục chứa Jupyter Notebooks (Mã nguồn chính)
+│   ├── Lab5_part1.pdf                    
+│
+├── README.md                           # File báo cáo chi tiết này
+│
+├── part2                                # Mã nguồn Python (Modules/Classes tái sử dụng)
+│   
+├── .gitignore                           # File cấu hình bỏ qua file rác (tmp, __pycache__)
+
+
+
 1. Mục tiêu
 Mục tiêu của bài thực hành là tìm hiểu, xây dựng và so sánh các mô hình phân loại văn bản từ truyền thống đến hiện đại, qua đó hiểu rõ vai trò của việc mô hình hóa ngữ cảnh trong ngôn ngữ tự nhiên. Cụ thể, bốn mô hình được triển khai và đánh giá: TF-IDF + Logistic Regression (Baseline 1) Word2Vec (trung bình) + Dense Layer (Baseline 2) Embedding Layer (Pre-trained) + LSTM Embedding Layer (Học từ đầu) + LSTM
 
