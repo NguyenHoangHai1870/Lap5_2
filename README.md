@@ -1,7 +1,7 @@
 ├── data/                                # Thư mục chứa dữ liệu (Dataset)
 │  
-├── notebook/                            # Thư mục chứa Jupyter Notebooks (Mã nguồn chính)
-│   ├── Lab5_part1.pdf                    
+├── Lab5_part2.pdf                      # Thư mục chứa Jupyter Notebooks (Mã nguồn chính)
+│                
 │
 ├── README.md                           # File báo cáo chi tiết này
 │
